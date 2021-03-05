@@ -9,7 +9,7 @@ use Role::Tiny::With;
 with 'TablesRole::Source::CSVDATA';
 
 1;
-# ABSTRACT: List of nouns from talkenglish.com website (nouns only)
+# ABSTRACT: List of words from talkenglish.com website that are used as nouns only
 
 __DATA__
 word,frequency
