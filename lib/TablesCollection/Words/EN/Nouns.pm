@@ -19,4 +19,7 @@ This distribution contains the following L<Tables>:: modules:
 
 L<Tables>
 
+L<TablesCollection::Words::EN::Adjectives>,
+L<TablesCollection::Words::EN::Adverbs>.
+
 =cut

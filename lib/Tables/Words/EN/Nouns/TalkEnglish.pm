@@ -9,7 +9,20 @@ use Role::Tiny::With;
 with 'TablesRole::Source::CSVDATA';
 
 1;
-# ABSTRACT: List of words from talkenglish.com website that are used as nouns only
+# ABSTRACT: List of words that are used as nouns only, from talkenglish.com
+
+=head1 SEE ALSO
+
+L<https://www.talkenglish.com/vocabulary/top-1500-nouns.aspx>
+
+L<Tables::Words::EN::Adjectives::TalkEnglish>,
+L<Tables::Words::EN::Adverbs::TalkEnglish>
+
+Other C<Tables::Words::EN::Nouns::*> modules.
+
+L<Tables>
+
+=cut
 
 __DATA__
 word,frequency
