@@ -1,4 +1,4 @@
-package Tables::Words::EN::Nouns::TalkEnglish;
+package TableData::Lingua::Word::EN::Noun::TalkEnglish;
 
 # AUTHORITY
 # DATE
@@ -6,7 +6,7 @@ package Tables::Words::EN::Nouns::TalkEnglish;
 # VERSION
 
 use Role::Tiny::With;
-with 'TablesRole::Source::CSVDATA';
+with 'TableDataRole::Source::CSVInDATA';
 
 1;
 # ABSTRACT: List of words that are used as nouns only, from talkenglish.com
@@ -15,12 +15,12 @@ with 'TablesRole::Source::CSVDATA';
 
 L<https://www.talkenglish.com/vocabulary/top-1500-nouns.aspx>
 
-L<Tables::Words::EN::Adjectives::TalkEnglish>,
-L<Tables::Words::EN::Adverbs::TalkEnglish>
+L<TableData::Lingua::Word::EN::Adverb::TalkEnglish>,
+L<TableData::Lingua::Word::EN::Adjective::TalkEnglish>
 
-Other C<Tables::Words::EN::Nouns::*> modules.
+Other C<TableData::Lingua::Word::EN::Noun::*> modules.
 
-L<Tables>
+L<TableData>
 
 =cut
 
